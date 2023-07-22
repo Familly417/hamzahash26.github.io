@@ -1,0 +1,27 @@
+body {
+    background-color: #fcc9b9;
+  }
+  .hoverimgtxt:hover img {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  .hoverimgtxt img {
+    transition: transform 0.2s;
+  }
+
+  /* BOrder */
+  .border2 h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+  }
+  
+  .border2 h2 span {
+    background: #fcc9b9;
+    padding: 0 10px;
+  }
+  /* //Border */
